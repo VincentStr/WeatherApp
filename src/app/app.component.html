@@ -1,22 +1,22 @@
-<div class="container" *ngIf="wheaterData">
+<div class="container" *ngIf="WeatherData">
   <div class="topnav">
     <div class="search-container">
       <form #form = "ngForm" (submit)="onSubmit()">
         <input type="text" placeholder="Search City" name="city" [(ngModel)] ="cityName">
-        <button type="submit"><img width=20 src="../assets/search-svgrepo-com.svg"></button>
+        <button type="submit"><img width=20 src="assets/search-svgrepo-com.svg"></button>
       </form>
     </div>
   </div>
   <div class="upper-data">
 
 
-    <img src="../assets/25.svg" *ngIf="wheaterData.current_observation.condition.temperature > 15">
-    <img src="../assets/vecteezy_winter-landscape-with-mountains-on-the-horizon-pine-forest_4371970.jpg"
-      *ngIf="wheaterData.current_observation.condition.temperature <= 15">
+    <img src="assets/25.svg" *ngIf="WeatherData.current_observation.condition.temperature > 15">
+    <img src="assets/vecteezy_winter-landscape-with-mountains-on-the-horizon-pine-forest_4371970.jpg"
+      *ngIf="WeatherData.current_observation.condition.temperature <= 15">
     <div class="weather-data">
-      <div class="location">{{wheaterData.location.city}}</div>
-      <div class="temperature"> {{wheaterData.current_observation.condition!.temperature}}°</div>
-      <div style="font-size: 14px">{{wheaterData.current_observation.condition!.text}}</div>
+      <div class="location">{{WeatherData.location.city}}</div>
+      <div class="temperature"> {{WeatherData.current_observation.condition!.temperature}}°</div>
+      <div style="font-size: 14px">{{WeatherData.current_observation.condition!.text}}</div>
     </div>
   </div>
 
@@ -24,63 +24,63 @@
     <div class="mData-container">
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/temperature-svgrepo-com.svg">
+          <img src="assets/temperature-svgrepo-com.svg">
           <span>Min</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.forecasts![0].low}}°
+          {{WeatherData.forecasts![0].low}}°
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/thermometer-svgrepo-com (2).svg">
+          <img src="assets/thermometer-svgrepo-com (2).svg">
           <span>Max</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.forecasts![0].high}}°
+          {{WeatherData.forecasts![0].high}}°
         </div>
       </div>
 
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/water-svgrepo-com.svg">
+          <img src="assets/water-svgrepo-com.svg">
           <span>Humidity</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.current_observation.atmosphere.humidity}}%
+          {{WeatherData.current_observation.atmosphere.humidity}}%
         </div>
       </div>
 
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/wind-svgrepo-com (1).svg">
+          <img src="assets/wind-svgrepo-com (1).svg">
           <span>Wind Speed</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.current_observation.wind.speed}} Km/h
+          {{WeatherData.current_observation.wind.speed}} Km/h
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/sunrise-morning-svgrepo-com.svg">
+          <img src="assets/sunrise-morning-svgrepo-com.svg">
           <span>Sunrise</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.current_observation.astronomy.sunrise}} 
+          {{WeatherData.current_observation.astronomy.sunrise}} 
         </div>
       </div>
 
       <div class="info-block">
         <div class="info-block-label">
-          <img src="../assets/sunset-svgrepo-com.svg">
+          <img src="assets/sunset-svgrepo-com.svg">
           <span>Sunset</span>
         </div>
         <div class="info-block-value">
-          {{wheaterData.current_observation.astronomy.sunset}} 
+          {{WeatherData.current_observation.astronomy.sunset}} 
         </div>
       </div>
 

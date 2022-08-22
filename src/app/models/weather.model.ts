@@ -52,7 +52,7 @@ export interface Forecast {
     code: number;
 }
 
-export interface WheaterData {
+export interface WeatherData {
     location: Location;
     current_observation: CurrentObservation;
     forecasts: Forecast[];
