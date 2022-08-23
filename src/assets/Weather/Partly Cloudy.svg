@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1400" style="enable-background:new 0 0 1000 1400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FBB040;}
+	.st2{opacity:0.69;fill:#FFF200;}
+	.st3{opacity:0.72;}
+	.st4{fill:#D1D3D4;}
+	.st5{opacity:0.54;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-11.317" y1="774.746" x2="1025.9821" y2="634.6604">
+	<stop  offset="0" style="stop-color:#0063B0"/>
+	<stop  offset="0.9947" style="stop-color:#5CB1E3"/>
+</linearGradient>
+<rect x="-22.72" y="-12.36" class="st0" width="1050.77" height="1435.38"/>
+<circle class="st1" cx="772.58" cy="234.45" r="227.42"/>
+<circle class="st2" cx="759.73" cy="227.42" r="227.42"/>
+<g class="st3">
+	<rect x="478.6" y="341.73" class="st4" width="333.85" height="121.54"/>
+	<ellipse class="st4" cx="485.53" cy="345.73" rx="123.08" ry="118.16"/>
+	<path class="st4" d="M790.31,213.3c-85.9-18.82-167.79,21.59-182.91,90.26c-14.99,68.06,41.25,138.32,125.88,157.88
+		c0.53-1.12,1.5-2.05,3.01-2.52c21.29-6.58,43.57-2.06,65.33-4.61c2.32-0.27,3.78,0.87,4.41,2.47c0.16-0.03,0.32-0.05,0.48-0.08
+		c4.25-0.69,6.86,3.46,6.16,6.55c53.28-10.36,95.39-44.25,105.8-91.56C933.59,303.04,876.21,232.12,790.31,213.3z"/>
+	<circle class="st4" cx="632.3" cy="272.53" r="137.37"/>
+</g>
+<g class="st5">
+	<rect x="116.15" y="432.56" class="st4" width="333.85" height="121.54"/>
+	<ellipse class="st4" cx="123.08" cy="436.56" rx="123.08" ry="118.16"/>
+	<path class="st4" d="M427.86,304.14c-85.9-18.82-167.79,21.59-182.91,90.26c-14.99,68.06,41.25,138.32,125.88,157.88
+		c0.53-1.11,1.5-2.05,3.01-2.52c21.29-6.58,43.57-2.06,65.33-4.61c2.32-0.27,3.78,0.87,4.41,2.47c0.16-0.03,0.32-0.05,0.48-0.08
+		c4.25-0.69,6.86,3.46,6.16,6.55c53.28-10.36,95.39-44.25,105.8-91.56C571.14,393.88,513.76,322.95,427.86,304.14z"/>
+	<circle class="st4" cx="269.85" cy="363.37" r="137.37"/>
+</g>
+</svg>

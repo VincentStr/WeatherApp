@@ -1,7 +1,7 @@
 .container {
     width: 400px;
     height: 50vh;
-    background-color: rgb(100, 68, 144);
+    background-color: rgb(108, 140, 166);
     border-radius: 20px;
     box-shadow: 10px 10px 10px 10px var(--shadow-dark);
 }
@@ -58,7 +58,7 @@
 
 .mData-container {
     flex: 1;
-    background-color: rgba(0, 0, 0, 0.407);
+    background-color: rgba(53, 53, 53, 0.407);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     display: flex;

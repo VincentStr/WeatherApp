@@ -10,9 +10,8 @@
   <div class="upper-data">
 
 
-    <img src="assets/25.svg" *ngIf="WeatherData.current_observation.condition.temperature > 15">
-    <img src="assets/vecteezy_winter-landscape-with-mountains-on-the-horizon-pine-forest_4371970.jpg"
-      *ngIf="WeatherData.current_observation.condition.temperature <= 15">
+    
+    <img src="assets/Weather/{{WeatherData.current_observation.condition!.text}}.svg">
     <div class="weather-data">
       <div class="location">{{WeatherData.location.city}}</div>
       <div class="temperature"> {{WeatherData.current_observation.condition!.temperature}}°</div>
