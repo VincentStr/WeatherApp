@@ -1,5 +1,5 @@
 :root {
-    --blue-1: #3C429E;
+    --blue-1: #5b3c9e;
     --blue-2: #4C52AD;
     --yellow-1: #FAC742;
     --white: #FFF;
@@ -22,4 +22,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+::-webkit-scrollbar {
+    height: 8px;             
+    border-radius: 10px;
+    border: 8px solid #ffffff;
+  }
+  ::-webkit-scrollbar-thumb:horizontal{
+    background: rgba(46, 41, 41, 0.601);
+    border-radius: 10px;
 }
